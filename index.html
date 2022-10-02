@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de asistencia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active btn enlace">Control</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn enlace" href="#">Asistencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn enlace" href="#">Docente</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn enlace" href="#">Asistencia</a>
+              </li>
+            </ul>
+            <div class="btn enlace">
+                <span>Regresar intranet</span>
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <hr>
+                <table class="table table-striped text-center table-bordered">
+                    <thead>
+                        <tr class="bg-azul text-white">
+                            <th></th>
+                            <th>Curso</th>
+                            <th>Grupo</th>
+                            <th>Hora sesión</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf"></i></td>
+                            <td>HTML y Css ( Fronted) </td>
+                            <td>C</td>
+                            <td>17:00</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-file-pdf"></i></td>
+                            <td>HTML y Css ( Fronted) </td>
+                            <td>C</td>
+                            <td>18:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <h5 class="text-azul">Sesiones</h5>
+                <hr class="bg-azul">
+                <div>
+                    <p class="text-center"><i class="fa-solid fa-check"></i>S21</p>
+                    <p class="text-center"><i class="fa-solid fa-check"></i>S22</p>
+                </div>
+                <br>
+
+                <h5 class="text-azul">Habilitar picados Estudiante</h5>
+                <hr class="bg-azul">
+                <div>
+                    <button class="btn bg-azul w-100 py-4 text-white">Habilitar picados Estudiantes</button>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <hr>
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td>Carrera:</td>
+                            <td>Desarrollo de sistemas de información</td>
+                        </tr>
+                        <tr>
+                            <td>Plan de estudios</td>
+                            <td>2022-3</td>
+                        </tr>
+                        <tr>
+                            <td>Curso</td>
+                            <td>HTML y CSS - FRONTED</td>
+                        </tr>
+                        <tr>
+                            <td>Docente</td>
+                            <td>ASCLIU LEMON VLADIMIR LINCH</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td>Ciclo:</td>
+                            <td>Nivel 3</td>
+                            <td>Créditos</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Grupo</td>
+                            <td>O</td>
+                            <td>Turno</td>
+                            <td>N</td>
+                        </tr>
+                        <tr>
+                            <td>Plan academico</td>
+                            <td>2022-2</td>
+                            <td>Iniciales de carrera</td>
+                            <td>DGI</td>
+                        </tr>
+                        <tr>
+                            <td>Total estudiantes</td>
+                            <td>42</td>
+                            <td>Total asistencias</td>
+                            <td>21</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <br>
+                <h4 class="text-azul">Lista de estudiantes</h4>
+                <hr>
+                <div class="text-end">
+                    <button class="btn btn-primary bg-azul">Guardar</button>
+                    <br></br>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Nro</th>
+                                <th>Código</th>
+                                <th>Alumno</th>
+                                <th>Tipo de bloqueado</th>
+                                <th>¿Asistio?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2021D002</td>
+                                <td>ANDY ZOIMAN</td>
+                                <td></td>
+                                <td><i class="fa-solid fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2022D112</td>
+                                <td>AVAO VEGA CINTYA MILAGROS</td>
+                                <td>2022D02</td>
+                                <td><i class="fa-solid fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>2022C03</td>
+                                <td>ALVARO ALVARO, NELEON JAIME</td>
+                                <td>2022D02</td>
+                                <td><i class="fa-solid fa-check"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.bg-azul{
+    background-color: rgb(51, 79, 139);
+}
+.text-azul{
+    color: rgb(51, 79, 139);
+}
+
+.enlace:hover{
+    background-color: rgb(233, 237, 240);
+}
